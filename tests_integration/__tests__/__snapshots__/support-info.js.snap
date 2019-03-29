@@ -492,7 +492,7 @@ exports[`API getSupportInfo() with version 1.8.2 -> 1.16.0 1`] = `
         \\"type\\": \\"boolean\\",
       },
       \\"cursorOffset\\": Object {
-@@ -52,37 +81,76 @@
+@@ -52,37 +81,80 @@
           \\"start\\": -1,
           \\"step\\": 1,
         },
@@ -512,6 +512,10 @@ exports[`API getSupportInfo() with version 1.8.2 -> 1.16.0 1`] = `
         \\"default\\": undefined,
         \\"type\\": \\"path\\",
       },
++     \\"forceSingleLineImports\\": Object {
++       \\"default\\": false,
++       \\"type\\": \\"boolean\\",
++     },
 +     \\"htmlWhitespaceSensitivity\\": Object {
 +       \\"choices\\": Array [
 +         \\"css\\",
@@ -571,7 +575,7 @@ exports[`API getSupportInfo() with version 1.8.2 -> 1.16.0 1`] = `
         \\"range\\": Object {
           \\"end\\": Infinity,
           \\"start\\": 0,
-@@ -90,14 +158,15 @@
+@@ -90,14 +162,15 @@
         },
         \\"type\\": \\"int\\",
       },
@@ -611,7 +615,7 @@ exports[`API getSupportInfo() with version 1.16.0 -> undefined 1`] = `
       ],
       \\"Markdown\\": Array [
         \\"markdown\\",
-@@ -135,10 +138,11 @@
+@@ -139,10 +142,11 @@
           \\"mdx\\",
           \\"vue\\",
           \\"yaml\\",
@@ -623,7 +627,7 @@ exports[`API getSupportInfo() with version 1.16.0 -> undefined 1`] = `
         \\"type\\": \\"choice\\",
       },
       \\"pluginSearchDirs\\": Object {
-@@ -165,10 +169,19 @@
+@@ -169,10 +173,19 @@
           \\"preserve\\",
         ],
         \\"default\\": \\"preserve\\",
@@ -1103,6 +1107,16 @@ exports[`CLI --support-info (stdout) 1`] = `
       \\"pluginDefaults\\": {},
       \\"since\\": \\"1.4.0\\",
       \\"type\\": \\"path\\"
+    },
+    {
+      \\"category\\": \\"JavaScript\\",
+      \\"default\\": false,
+      \\"description\\": \\"print imports statemens in js/ts as single line (ignore printwidth)\\",
+      \\"name\\": \\"forceSingleLineImports\\",
+      \\"oppositeDescription\\": \\"Allow imports to be printet over multiple lines.\\",
+      \\"pluginDefaults\\": {},
+      \\"since\\": \\"1.9.2\\",
+      \\"type\\": \\"boolean\\"
     },
     {
       \\"category\\": \\"HTML\\",

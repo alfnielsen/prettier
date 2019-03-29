@@ -1,13 +1,13 @@
 {
-  "name": "prettier",
+  "name": "prettier-with-force-single-line-imports",
   "version": "1.17.0-dev",
-  "description": "Prettier is an opinionated code formatter",
+  "description": "Prettier fork (With option: ForceSingleLineImports)",
   "bin": {
     "prettier": "./bin/prettier.js"
   },
-  "repository": "prettier/prettier",
-  "homepage": "https://prettier.io",
-  "author": "James Long",
+  "repository": "https://github.com/alfnielsen/prettier",
+  "homepage": "https://github.com/alfnielsen/prettier",
+  "author": "Alf Nielsen",
   "license": "MIT",
   "main": "./index.js",
   "engines": {

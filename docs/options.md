@@ -344,3 +344,19 @@ Valid options:
 | Default  | CLI Override                                                | API Override                                               |
 | -------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
 | `"auto"` | <code>--end-of-line <auto&#124;lf&#124;crlf&#124;cr></code> | <code>endOfLine: "<auto&#124;lf&#124;crlf&#124;cr>"</code> |
+
+## Force Single Line Imports
+
+Force import statements in js/ts to be one line. 
+(No linebreaks - ignores printWidth)
+
+Note: If comments are placed in the import, this option will be ignored!
+
+Valid options:
+
+-  `true` - Example: `import { a, b, c, d, e, f, g, h, i, j, k, l, m, n } from 'some/path/to/an/module'`.
+-  `false` - Example: `import {\n a,\n b,\n c,\n d,\n e,\n f,\n g,\n h,\n i,\n j,\n k,\n l,\n m,\n n\n } from 'some/path/to/an/module'`.
+
+| Default | CLI Override                     | API Override                     |
+| ------- | -------------------------------- | -------------------------------- |
+| `false` | `--no-force-single-line-imports` | `forceSingleLineImports: <bool>` |

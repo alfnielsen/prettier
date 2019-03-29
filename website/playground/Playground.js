@@ -30,6 +30,7 @@ const ENABLED_OPTIONS = [
   "useTabs",
   "semi",
   "singleQuote",
+  "singleLineImports",
   "bracketSpacing",
   "jsxSingleQuote",
   "jsxBracketSameLine",

@@ -1001,6 +1001,22 @@ function printPathNoParens(path, options, print, args) {
         }
 
         if (
+          options.forceSingleLineImports === true &&
+          n.specifiers &&
+          !n.specifiers.some(node => node.comments)
+        ) {
+          parts.push(
+            group(
+              concat([
+                "{",
+                options.bracketSpacing ? " " : "",
+                join(", ", grouped),
+                options.bracketSpacing ? " " : "",
+                "}"
+              ])
+            )
+          );
+        } else if (
           grouped.length === 1 &&
           standalones.length === 0 &&
           n.specifiers &&

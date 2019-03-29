@@ -65,6 +65,8 @@ Format options:
   --end-of-line <auto|lf|crlf|cr>
                            Which end of line characters to apply.
                            Defaults to auto.
+  --no-force-single-line-imports
+                           Allow imports to be printet over multiple lines.
   --html-whitespace-sensitivity <css|strict|ignore>
                            How to handle whitespaces in HTML.
                            Defaults to css.
@@ -218,6 +220,8 @@ Format options:
   --end-of-line <auto|lf|crlf|cr>
                            Which end of line characters to apply.
                            Defaults to auto.
+  --no-force-single-line-imports
+                           Allow imports to be printet over multiple lines.
   --html-whitespace-sensitivity <css|strict|ignore>
                            How to handle whitespaces in HTML.
                            Defaults to css.

@@ -159,6 +159,19 @@ exports[`show detailed usage with --help find-config-path (stdout) 1`] = `
 
 exports[`show detailed usage with --help find-config-path (write) 1`] = `Array []`;
 
+exports[`show detailed usage with --help force-single-line-imports (stderr) 1`] = `""`;
+
+exports[`show detailed usage with --help force-single-line-imports (stdout) 1`] = `
+"--force-single-line-imports
+
+  print imports statemens in js/ts as single line (ignore printwidth)
+
+Default: false
+"
+`;
+
+exports[`show detailed usage with --help force-single-line-imports (write) 1`] = `Array []`;
+
 exports[`show detailed usage with --help help (stderr) 1`] = `""`;
 
 exports[`show detailed usage with --help help (stdout) 1`] = `
@@ -317,6 +330,17 @@ exports[`show detailed usage with --help no-editorconfig (stdout) 1`] = `
 `;
 
 exports[`show detailed usage with --help no-editorconfig (write) 1`] = `Array []`;
+
+exports[`show detailed usage with --help no-force-single-line-imports (stderr) 1`] = `""`;
+
+exports[`show detailed usage with --help no-force-single-line-imports (stdout) 1`] = `
+"--no-force-single-line-imports
+
+  Allow imports to be printet over multiple lines.
+"
+`;
+
+exports[`show detailed usage with --help no-force-single-line-imports (write) 1`] = `Array []`;
 
 exports[`show detailed usage with --help no-semi (stderr) 1`] = `""`;
 

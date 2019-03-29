@@ -40,6 +40,15 @@ module.exports = {
     oppositeDescription:
       "Do not print semicolons, except at the beginning of lines which may need them."
   },
+  forceSingleLineImports: {
+    since: "1.17.0",
+    category: CATEGORY_JAVASCRIPT,
+    type: "boolean",
+    default: false,
+    description:
+      "print imports statemens in js/ts as single line (ignore printwidth)",
+    oppositeDescription: "Allow imports to be printet over multiple lines."
+  },
   singleQuote: commonOptions.singleQuote,
   jsxSingleQuote: {
     since: "1.15.0",
