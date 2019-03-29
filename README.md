@@ -1,3 +1,33 @@
+**Difference from Pretier**
+
+This fork is an exact clone of Prettier,
+but with one extra options for js/ts: _ForceSingleLineImports_ (default settings is false!)
+
+If _ForceSingleLineImport_ option is set to true, it will fromat import statement as a single line,
+ignoring printWidth (With the execption og imports with comment)
+
+Ex:
+ForceSingleLineImports: true
+```typescript
+import { a, b, c, d, e, f} from 'someModule'
+```
+ForceSingleLineImports: false
+(Normal Prettier behavior)
+```typescript
+import { 
+   a, 
+   b, 
+   c, 
+   d, 
+   e, 
+   f
+} from 'someModule'
+```
+
+**Why a fork:**
+I have written with the Prettier guys/gals after making this option, but they dont want the option,
+but they encureded me to fork Prettier so other people can get it as well.
+
 ![Prettier Banner](https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png)
 
 <h2 align="center">Opinionated Code Formatter</h2>
