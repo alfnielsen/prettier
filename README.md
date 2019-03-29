@@ -26,7 +26,7 @@ import {
 
 **Why a fork:**
 I have written with the Prettier guys/gals after making this option, but they dont want the option,
-but they encureded me to fork Prettier so other people can get it as well.
+but they encouraged me to fork Prettier so other people can get it as well.
 
 ----
 ----
