@@ -1,4 +1,4 @@
-**Difference from Pretier**
+**Difference from Prettier**
 
 This fork is an exact clone of Prettier,
 but with one extra options for js/ts: _ForceSingleLineImports_ (default settings is false!)
@@ -27,6 +27,10 @@ import {
 **Why a fork:**
 I have written with the Prettier guys/gals after making this option, but they dont want the option,
 but they encureded me to fork Prettier so other people can get it as well.
+
+----
+----
+
 
 ![Prettier Banner](https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png)
 
